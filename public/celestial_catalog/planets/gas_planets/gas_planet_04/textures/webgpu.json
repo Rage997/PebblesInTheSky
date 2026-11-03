@@ -1,0 +1,83 @@
+{
+  "resolution": [
+    512,
+    256
+  ],
+  "geometry_required": false,
+  "projection": "equirectangular",
+  "north": "+Z",
+  "uv_from_unit_direction": "u = fract(0.5 + atan2(y,x)/(2*pi)); v_top = acos(clamp(z,-1,1))/pi",
+  "sampler": {
+    "addressModeU": "repeat",
+    "addressModeV": "clamp-to-edge"
+  },
+  "base_color": {
+    "file": "base_color.webp",
+    "gpu_format": "rgba8unorm-srgb",
+    "lighting": "none"
+  },
+  "linear_maps": [
+    "roughness.webp",
+    "normal.webp"
+  ],
+  "linear_gpu_format": "rgba8unorm",
+  "normal": {
+    "decode": "normalize(2*sample.rgb-1)",
+    "convention": "tangent space, +Y toward north (increasing Blender v)",
+    "tangent": "normalize(vec3(-y,x,0))",
+    "bitangent": "cross(N,T)",
+    "poles": "choose a stable tangent at exact poles"
+  },
+  "emission": {
+    "file": "emission.webp",
+    "gpu_format": "rgba8unorm",
+    "decode": "sample.rgb * scale + bias",
+    "scale": 1,
+    "bias": 0
+  },
+  "clouds": {
+    "file": "clouds.webp",
+    "format": "RGBA8",
+    "rgb": "unlit white",
+    "alpha": "linear opacity, straight (not premultiplied)",
+    "shell_radius_ratio": 1.009,
+    "material": {
+      "roughness": 1,
+      "metallic": 0,
+      "alpha_mode": "blend",
+      "depth_write": false,
+      "depth_test": true,
+      "cull_mode": "back"
+    },
+    "lighting": "runtime; no baked sun direction or shadows",
+    "gpu_format": "rgba8unorm-srgb",
+    "enabled": false,
+    "upload": {
+      "flipY": false,
+      "premultiplyAlpha": "none",
+      "colorSpaceConversion": "none"
+    },
+    "blend": {
+      "color": {
+        "srcFactor": "src-alpha",
+        "dstFactor": "one-minus-src-alpha",
+        "operation": "add"
+      },
+      "alpha": {
+        "srcFactor": "one",
+        "dstFactor": "one-minus-src-alpha",
+        "operation": "add"
+      }
+    },
+    "draw_order": "opaque planet first, then front-facing cloud shell with depth test on and depth writes off",
+    "alpha_test": "disabled; preserve thin wisps",
+    "shadowing": "surface shadows require engine support; self-shadowing is not encoded"
+  },
+  "atmosphere": "Not baked; implement in engine.",
+  "preview_rotation_euler_xyz": [
+    0.06632958455941795,
+    0.4662897769823442,
+    3.1629120539067688
+  ],
+  "image_origin": "top-left; use v_top and upload without flipY"
+}

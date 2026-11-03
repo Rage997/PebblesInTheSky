@@ -1,0 +1,634 @@
+{
+  "texture_size": [
+    512,
+    256
+  ],
+  "mip_levels": 10,
+  "assets": [
+    {
+      "name": "gas_planet_01",
+      "category": "planets/gas_planets",
+      "textures": "planets/gas_planets/gas_planet_01/textures"
+    },
+    {
+      "name": "gas_planet_02",
+      "category": "planets/gas_planets",
+      "textures": "planets/gas_planets/gas_planet_02/textures"
+    },
+    {
+      "name": "gas_planet_03",
+      "category": "planets/gas_planets",
+      "textures": "planets/gas_planets/gas_planet_03/textures"
+    },
+    {
+      "name": "gas_planet_04",
+      "category": "planets/gas_planets",
+      "textures": "planets/gas_planets/gas_planet_04/textures"
+    },
+    {
+      "name": "gas_planet_05",
+      "category": "planets/gas_planets",
+      "textures": "planets/gas_planets/gas_planet_05/textures"
+    },
+    {
+      "name": "gas_planet_06",
+      "category": "planets/gas_planets",
+      "textures": "planets/gas_planets/gas_planet_06/textures"
+    },
+    {
+      "name": "gas_planet_07",
+      "category": "planets/gas_planets",
+      "textures": "planets/gas_planets/gas_planet_07/textures"
+    },
+    {
+      "name": "gas_planet_08",
+      "category": "planets/gas_planets",
+      "textures": "planets/gas_planets/gas_planet_08/textures"
+    },
+    {
+      "name": "gas_planet_09",
+      "category": "planets/gas_planets",
+      "textures": "planets/gas_planets/gas_planet_09/textures"
+    },
+    {
+      "name": "gas_planet_10",
+      "category": "planets/gas_planets",
+      "textures": "planets/gas_planets/gas_planet_10/textures"
+    },
+    {
+      "name": "forest_planet_01",
+      "category": "planets/forest_planets",
+      "textures": "planets/forest_planets/forest_planet_01/textures"
+    },
+    {
+      "name": "forest_planet_02",
+      "category": "planets/forest_planets",
+      "textures": "planets/forest_planets/forest_planet_02/textures"
+    },
+    {
+      "name": "forest_planet_03",
+      "category": "planets/forest_planets",
+      "textures": "planets/forest_planets/forest_planet_03/textures"
+    },
+    {
+      "name": "forest_planet_04",
+      "category": "planets/forest_planets",
+      "textures": "planets/forest_planets/forest_planet_04/textures"
+    },
+    {
+      "name": "forest_planet_05",
+      "category": "planets/forest_planets",
+      "textures": "planets/forest_planets/forest_planet_05/textures"
+    },
+    {
+      "name": "forest_planet_06",
+      "category": "planets/forest_planets",
+      "textures": "planets/forest_planets/forest_planet_06/textures"
+    },
+    {
+      "name": "forest_planet_07",
+      "category": "planets/forest_planets",
+      "textures": "planets/forest_planets/forest_planet_07/textures"
+    },
+    {
+      "name": "forest_planet_08",
+      "category": "planets/forest_planets",
+      "textures": "planets/forest_planets/forest_planet_08/textures"
+    },
+    {
+      "name": "forest_planet_09",
+      "category": "planets/forest_planets",
+      "textures": "planets/forest_planets/forest_planet_09/textures"
+    },
+    {
+      "name": "forest_planet_10",
+      "category": "planets/forest_planets",
+      "textures": "planets/forest_planets/forest_planet_10/textures"
+    },
+    {
+      "name": "ocean_planet_01",
+      "category": "planets/ocean_planets",
+      "textures": "planets/ocean_planets/ocean_planet_01/textures"
+    },
+    {
+      "name": "ocean_planet_02",
+      "category": "planets/ocean_planets",
+      "textures": "planets/ocean_planets/ocean_planet_02/textures"
+    },
+    {
+      "name": "ocean_planet_03",
+      "category": "planets/ocean_planets",
+      "textures": "planets/ocean_planets/ocean_planet_03/textures"
+    },
+    {
+      "name": "ocean_planet_04",
+      "category": "planets/ocean_planets",
+      "textures": "planets/ocean_planets/ocean_planet_04/textures"
+    },
+    {
+      "name": "ocean_planet_05",
+      "category": "planets/ocean_planets",
+      "textures": "planets/ocean_planets/ocean_planet_05/textures"
+    },
+    {
+      "name": "ocean_planet_06",
+      "category": "planets/ocean_planets",
+      "textures": "planets/ocean_planets/ocean_planet_06/textures"
+    },
+    {
+      "name": "ocean_planet_07",
+      "category": "planets/ocean_planets",
+      "textures": "planets/ocean_planets/ocean_planet_07/textures"
+    },
+    {
+      "name": "ocean_planet_08",
+      "category": "planets/ocean_planets",
+      "textures": "planets/ocean_planets/ocean_planet_08/textures"
+    },
+    {
+      "name": "ocean_planet_09",
+      "category": "planets/ocean_planets",
+      "textures": "planets/ocean_planets/ocean_planet_09/textures"
+    },
+    {
+      "name": "ocean_planet_10",
+      "category": "planets/ocean_planets",
+      "textures": "planets/ocean_planets/ocean_planet_10/textures"
+    },
+    {
+      "name": "desert_planet_01",
+      "category": "planets/desert_planets",
+      "textures": "planets/desert_planets/desert_planet_01/textures"
+    },
+    {
+      "name": "desert_planet_02",
+      "category": "planets/desert_planets",
+      "textures": "planets/desert_planets/desert_planet_02/textures"
+    },
+    {
+      "name": "desert_planet_03",
+      "category": "planets/desert_planets",
+      "textures": "planets/desert_planets/desert_planet_03/textures"
+    },
+    {
+      "name": "desert_planet_04",
+      "category": "planets/desert_planets",
+      "textures": "planets/desert_planets/desert_planet_04/textures"
+    },
+    {
+      "name": "desert_planet_05",
+      "category": "planets/desert_planets",
+      "textures": "planets/desert_planets/desert_planet_05/textures"
+    },
+    {
+      "name": "desert_planet_06",
+      "category": "planets/desert_planets",
+      "textures": "planets/desert_planets/desert_planet_06/textures"
+    },
+    {
+      "name": "desert_planet_07",
+      "category": "planets/desert_planets",
+      "textures": "planets/desert_planets/desert_planet_07/textures"
+    },
+    {
+      "name": "desert_planet_08",
+      "category": "planets/desert_planets",
+      "textures": "planets/desert_planets/desert_planet_08/textures"
+    },
+    {
+      "name": "desert_planet_09",
+      "category": "planets/desert_planets",
+      "textures": "planets/desert_planets/desert_planet_09/textures"
+    },
+    {
+      "name": "desert_planet_10",
+      "category": "planets/desert_planets",
+      "textures": "planets/desert_planets/desert_planet_10/textures"
+    },
+    {
+      "name": "ice_planet_01",
+      "category": "planets/ice_planets",
+      "textures": "planets/ice_planets/ice_planet_01/textures"
+    },
+    {
+      "name": "ice_planet_02",
+      "category": "planets/ice_planets",
+      "textures": "planets/ice_planets/ice_planet_02/textures"
+    },
+    {
+      "name": "ice_planet_03",
+      "category": "planets/ice_planets",
+      "textures": "planets/ice_planets/ice_planet_03/textures"
+    },
+    {
+      "name": "ice_planet_04",
+      "category": "planets/ice_planets",
+      "textures": "planets/ice_planets/ice_planet_04/textures"
+    },
+    {
+      "name": "ice_planet_05",
+      "category": "planets/ice_planets",
+      "textures": "planets/ice_planets/ice_planet_05/textures"
+    },
+    {
+      "name": "ice_planet_06",
+      "category": "planets/ice_planets",
+      "textures": "planets/ice_planets/ice_planet_06/textures"
+    },
+    {
+      "name": "ice_planet_07",
+      "category": "planets/ice_planets",
+      "textures": "planets/ice_planets/ice_planet_07/textures"
+    },
+    {
+      "name": "ice_planet_08",
+      "category": "planets/ice_planets",
+      "textures": "planets/ice_planets/ice_planet_08/textures"
+    },
+    {
+      "name": "ice_planet_09",
+      "category": "planets/ice_planets",
+      "textures": "planets/ice_planets/ice_planet_09/textures"
+    },
+    {
+      "name": "ice_planet_10",
+      "category": "planets/ice_planets",
+      "textures": "planets/ice_planets/ice_planet_10/textures"
+    },
+    {
+      "name": "rocky_planet_01",
+      "category": "planets/rocky_planets",
+      "textures": "planets/rocky_planets/rocky_planet_01/textures"
+    },
+    {
+      "name": "rocky_planet_02",
+      "category": "planets/rocky_planets",
+      "textures": "planets/rocky_planets/rocky_planet_02/textures"
+    },
+    {
+      "name": "rocky_planet_03",
+      "category": "planets/rocky_planets",
+      "textures": "planets/rocky_planets/rocky_planet_03/textures"
+    },
+    {
+      "name": "rocky_planet_04",
+      "category": "planets/rocky_planets",
+      "textures": "planets/rocky_planets/rocky_planet_04/textures"
+    },
+    {
+      "name": "rocky_planet_05",
+      "category": "planets/rocky_planets",
+      "textures": "planets/rocky_planets/rocky_planet_05/textures"
+    },
+    {
+      "name": "rocky_planet_06",
+      "category": "planets/rocky_planets",
+      "textures": "planets/rocky_planets/rocky_planet_06/textures"
+    },
+    {
+      "name": "rocky_planet_07",
+      "category": "planets/rocky_planets",
+      "textures": "planets/rocky_planets/rocky_planet_07/textures"
+    },
+    {
+      "name": "rocky_planet_08",
+      "category": "planets/rocky_planets",
+      "textures": "planets/rocky_planets/rocky_planet_08/textures"
+    },
+    {
+      "name": "rocky_planet_09",
+      "category": "planets/rocky_planets",
+      "textures": "planets/rocky_planets/rocky_planet_09/textures"
+    },
+    {
+      "name": "rocky_planet_10",
+      "category": "planets/rocky_planets",
+      "textures": "planets/rocky_planets/rocky_planet_10/textures"
+    },
+    {
+      "name": "alien_planet_01",
+      "category": "planets/alien_planets",
+      "textures": "planets/alien_planets/alien_planet_01/textures"
+    },
+    {
+      "name": "alien_planet_02",
+      "category": "planets/alien_planets",
+      "textures": "planets/alien_planets/alien_planet_02/textures"
+    },
+    {
+      "name": "alien_planet_03",
+      "category": "planets/alien_planets",
+      "textures": "planets/alien_planets/alien_planet_03/textures"
+    },
+    {
+      "name": "alien_planet_04",
+      "category": "planets/alien_planets",
+      "textures": "planets/alien_planets/alien_planet_04/textures"
+    },
+    {
+      "name": "alien_planet_05",
+      "category": "planets/alien_planets",
+      "textures": "planets/alien_planets/alien_planet_05/textures"
+    },
+    {
+      "name": "alien_planet_06",
+      "category": "planets/alien_planets",
+      "textures": "planets/alien_planets/alien_planet_06/textures"
+    },
+    {
+      "name": "alien_planet_07",
+      "category": "planets/alien_planets",
+      "textures": "planets/alien_planets/alien_planet_07/textures"
+    },
+    {
+      "name": "alien_planet_08",
+      "category": "planets/alien_planets",
+      "textures": "planets/alien_planets/alien_planet_08/textures"
+    },
+    {
+      "name": "alien_planet_09",
+      "category": "planets/alien_planets",
+      "textures": "planets/alien_planets/alien_planet_09/textures"
+    },
+    {
+      "name": "alien_planet_10",
+      "category": "planets/alien_planets",
+      "textures": "planets/alien_planets/alien_planet_10/textures"
+    },
+    {
+      "name": "tundra_planet_01",
+      "category": "planets/tundra_planets",
+      "textures": "planets/tundra_planets/tundra_planet_01/textures"
+    },
+    {
+      "name": "tundra_planet_02",
+      "category": "planets/tundra_planets",
+      "textures": "planets/tundra_planets/tundra_planet_02/textures"
+    },
+    {
+      "name": "tundra_planet_03",
+      "category": "planets/tundra_planets",
+      "textures": "planets/tundra_planets/tundra_planet_03/textures"
+    },
+    {
+      "name": "tundra_planet_04",
+      "category": "planets/tundra_planets",
+      "textures": "planets/tundra_planets/tundra_planet_04/textures"
+    },
+    {
+      "name": "tundra_planet_05",
+      "category": "planets/tundra_planets",
+      "textures": "planets/tundra_planets/tundra_planet_05/textures"
+    },
+    {
+      "name": "tundra_planet_06",
+      "category": "planets/tundra_planets",
+      "textures": "planets/tundra_planets/tundra_planet_06/textures"
+    },
+    {
+      "name": "tundra_planet_07",
+      "category": "planets/tundra_planets",
+      "textures": "planets/tundra_planets/tundra_planet_07/textures"
+    },
+    {
+      "name": "tundra_planet_08",
+      "category": "planets/tundra_planets",
+      "textures": "planets/tundra_planets/tundra_planet_08/textures"
+    },
+    {
+      "name": "tundra_planet_09",
+      "category": "planets/tundra_planets",
+      "textures": "planets/tundra_planets/tundra_planet_09/textures"
+    },
+    {
+      "name": "tundra_planet_10",
+      "category": "planets/tundra_planets",
+      "textures": "planets/tundra_planets/tundra_planet_10/textures"
+    },
+    {
+      "name": "terrestrial_planet_01",
+      "category": "planets/terrestrial_planets",
+      "textures": "planets/terrestrial_planets/terrestrial_planet_01/textures"
+    },
+    {
+      "name": "terrestrial_planet_02",
+      "category": "planets/terrestrial_planets",
+      "textures": "planets/terrestrial_planets/terrestrial_planet_02/textures"
+    },
+    {
+      "name": "terrestrial_planet_03",
+      "category": "planets/terrestrial_planets",
+      "textures": "planets/terrestrial_planets/terrestrial_planet_03/textures"
+    },
+    {
+      "name": "terrestrial_planet_04",
+      "category": "planets/terrestrial_planets",
+      "textures": "planets/terrestrial_planets/terrestrial_planet_04/textures"
+    },
+    {
+      "name": "terrestrial_planet_05",
+      "category": "planets/terrestrial_planets",
+      "textures": "planets/terrestrial_planets/terrestrial_planet_05/textures"
+    },
+    {
+      "name": "terrestrial_planet_06",
+      "category": "planets/terrestrial_planets",
+      "textures": "planets/terrestrial_planets/terrestrial_planet_06/textures"
+    },
+    {
+      "name": "terrestrial_planet_07",
+      "category": "planets/terrestrial_planets",
+      "textures": "planets/terrestrial_planets/terrestrial_planet_07/textures"
+    },
+    {
+      "name": "terrestrial_planet_08",
+      "category": "planets/terrestrial_planets",
+      "textures": "planets/terrestrial_planets/terrestrial_planet_08/textures"
+    },
+    {
+      "name": "terrestrial_planet_09",
+      "category": "planets/terrestrial_planets",
+      "textures": "planets/terrestrial_planets/terrestrial_planet_09/textures"
+    },
+    {
+      "name": "terrestrial_planet_10",
+      "category": "planets/terrestrial_planets",
+      "textures": "planets/terrestrial_planets/terrestrial_planet_10/textures"
+    },
+    {
+      "name": "cratered_moon_01",
+      "category": "moons/cratered_moons",
+      "textures": "moons/cratered_moons/cratered_moon_01/textures"
+    },
+    {
+      "name": "cratered_moon_02",
+      "category": "moons/cratered_moons",
+      "textures": "moons/cratered_moons/cratered_moon_02/textures"
+    },
+    {
+      "name": "cratered_moon_03",
+      "category": "moons/cratered_moons",
+      "textures": "moons/cratered_moons/cratered_moon_03/textures"
+    },
+    {
+      "name": "cratered_moon_04",
+      "category": "moons/cratered_moons",
+      "textures": "moons/cratered_moons/cratered_moon_04/textures"
+    },
+    {
+      "name": "cratered_moon_05",
+      "category": "moons/cratered_moons",
+      "textures": "moons/cratered_moons/cratered_moon_05/textures"
+    },
+    {
+      "name": "icy_moon_01",
+      "category": "moons/icy_moons",
+      "textures": "moons/icy_moons/icy_moon_01/textures"
+    },
+    {
+      "name": "icy_moon_02",
+      "category": "moons/icy_moons",
+      "textures": "moons/icy_moons/icy_moon_02/textures"
+    },
+    {
+      "name": "icy_moon_03",
+      "category": "moons/icy_moons",
+      "textures": "moons/icy_moons/icy_moon_03/textures"
+    },
+    {
+      "name": "icy_moon_04",
+      "category": "moons/icy_moons",
+      "textures": "moons/icy_moons/icy_moon_04/textures"
+    },
+    {
+      "name": "icy_moon_05",
+      "category": "moons/icy_moons",
+      "textures": "moons/icy_moons/icy_moon_05/textures"
+    },
+    {
+      "name": "volcanic_moon_01",
+      "category": "moons/volcanic_moons",
+      "textures": "moons/volcanic_moons/volcanic_moon_01/textures"
+    },
+    {
+      "name": "volcanic_moon_02",
+      "category": "moons/volcanic_moons",
+      "textures": "moons/volcanic_moons/volcanic_moon_02/textures"
+    },
+    {
+      "name": "volcanic_moon_03",
+      "category": "moons/volcanic_moons",
+      "textures": "moons/volcanic_moons/volcanic_moon_03/textures"
+    },
+    {
+      "name": "volcanic_moon_04",
+      "category": "moons/volcanic_moons",
+      "textures": "moons/volcanic_moons/volcanic_moon_04/textures"
+    },
+    {
+      "name": "volcanic_moon_05",
+      "category": "moons/volcanic_moons",
+      "textures": "moons/volcanic_moons/volcanic_moon_05/textures"
+    },
+    {
+      "name": "dusty_moon_01",
+      "category": "moons/dusty_moons",
+      "textures": "moons/dusty_moons/dusty_moon_01/textures"
+    },
+    {
+      "name": "dusty_moon_02",
+      "category": "moons/dusty_moons",
+      "textures": "moons/dusty_moons/dusty_moon_02/textures"
+    },
+    {
+      "name": "dusty_moon_03",
+      "category": "moons/dusty_moons",
+      "textures": "moons/dusty_moons/dusty_moon_03/textures"
+    },
+    {
+      "name": "dusty_moon_04",
+      "category": "moons/dusty_moons",
+      "textures": "moons/dusty_moons/dusty_moon_04/textures"
+    },
+    {
+      "name": "dusty_moon_05",
+      "category": "moons/dusty_moons",
+      "textures": "moons/dusty_moons/dusty_moon_05/textures"
+    },
+    {
+      "name": "dark_moon_01",
+      "category": "moons/dark_moons",
+      "textures": "moons/dark_moons/dark_moon_01/textures"
+    },
+    {
+      "name": "dark_moon_02",
+      "category": "moons/dark_moons",
+      "textures": "moons/dark_moons/dark_moon_02/textures"
+    },
+    {
+      "name": "dark_moon_03",
+      "category": "moons/dark_moons",
+      "textures": "moons/dark_moons/dark_moon_03/textures"
+    },
+    {
+      "name": "dark_moon_04",
+      "category": "moons/dark_moons",
+      "textures": "moons/dark_moons/dark_moon_04/textures"
+    },
+    {
+      "name": "dark_moon_05",
+      "category": "moons/dark_moons",
+      "textures": "moons/dark_moons/dark_moon_05/textures"
+    },
+    {
+      "name": "volcanic_planet_01",
+      "category": "planets/volcanic_planets",
+      "textures": "planets/volcanic_planets/volcanic_planet_01/textures"
+    },
+    {
+      "name": "volcanic_planet_02",
+      "category": "planets/volcanic_planets",
+      "textures": "planets/volcanic_planets/volcanic_planet_02/textures"
+    },
+    {
+      "name": "volcanic_planet_03",
+      "category": "planets/volcanic_planets",
+      "textures": "planets/volcanic_planets/volcanic_planet_03/textures"
+    },
+    {
+      "name": "volcanic_planet_04",
+      "category": "planets/volcanic_planets",
+      "textures": "planets/volcanic_planets/volcanic_planet_04/textures"
+    },
+    {
+      "name": "volcanic_planet_05",
+      "category": "planets/volcanic_planets",
+      "textures": "planets/volcanic_planets/volcanic_planet_05/textures"
+    },
+    {
+      "name": "volcanic_planet_06",
+      "category": "planets/volcanic_planets",
+      "textures": "planets/volcanic_planets/volcanic_planet_06/textures"
+    },
+    {
+      "name": "volcanic_planet_07",
+      "category": "planets/volcanic_planets",
+      "textures": "planets/volcanic_planets/volcanic_planet_07/textures"
+    },
+    {
+      "name": "volcanic_planet_08",
+      "category": "planets/volcanic_planets",
+      "textures": "planets/volcanic_planets/volcanic_planet_08/textures"
+    },
+    {
+      "name": "volcanic_planet_09",
+      "category": "planets/volcanic_planets",
+      "textures": "planets/volcanic_planets/volcanic_planet_09/textures"
+    },
+    {
+      "name": "volcanic_planet_10",
+      "category": "planets/volcanic_planets",
+      "textures": "planets/volcanic_planets/volcanic_planet_10/textures"
+    }
+  ]
+}
